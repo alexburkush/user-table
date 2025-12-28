@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "status": "active",
+    "role": "admin",
+    "createdAt": "2023-01-14T08:30:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2023-02-28T14:20:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Davis",
+    "email": "charlie.davis@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2023-04-12T11:15:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Diana Prince",
+    "email": "diana.p@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2023-05-22T09:45:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Evan Wright",
+    "email": "evan.w@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2023-06-05T16:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Fiona Glenanne",
+    "email": "fiona.g@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2023-07-19T10:10:00Z"
+  },
+  {
+    "id": 7,
+    "name": "George Miller",
+    "email": "george.m@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2023-08-30T13:25:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Hannah Abbott",
+    "email": "hannah.a@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2023-09-14T07:50:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Ian Wright",
+    "email": "ian.wright@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2023-10-05T12:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "status": "active",
+    "role": "admin",
+    "createdAt": "2023-11-21T15:30:00Z"
+  },
+  {
+    "id": 11,
+    "name": "Kevin Hart",
+    "email": "kevin.h@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2023-12-10T09:15:00Z"
+  },
+  {
+    "id": 12,
+    "name": "Laura Palmer",
+    "email": "laura.p@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-01-05T11:45:00Z"
+  },
+  {
+    "id": 13,
+    "name": "Michael Scott",
+    "email": "m.scott@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-01-25T14:10:00Z"
+  },
+  {
+    "id": 14,
+    "name": "Nina Simone",
+    "email": "nina.s@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2024-02-14T10:00:00Z"
+  },
+  {
+    "id": 15,
+    "name": "Oscar Wilde",
+    "email": "oscar.w@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-03-02T16:20:00Z"
+  },
+  {
+    "id": 16,
+    "name": "Peter Parker",
+    "email": "spidey@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-03-20T08:55:00Z"
+  },
+  {
+    "id": 17,
+    "name": "Quinn Fabray",
+    "email": "quinn.f@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2024-04-11T13:40:00Z"
+  },
+  {
+    "id": 18,
+    "name": "Riley Reid",
+    "email": "riley.r@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-04-29T11:05:00Z"
+  },
+  {
+    "id": 19,
+    "name": "Sam Winchester",
+    "email": "sam.w@example.com",
+    "status": "active",
+    "role": "admin",
+    "createdAt": "2024-05-15T09:30:00Z"
+  },
+  {
+    "id": 20,
+    "name": "Tina Fey",
+    "email": "tina.f@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2024-06-08T15:15:00Z"
+  },
+  {
+    "id": 21,
+    "name": "Ursula Corbero",
+    "email": "ursula.c@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-06-25T12:45:00Z"
+  },
+  {
+    "id": 22,
+    "name": "Victor Fries",
+    "email": "victor.f@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-07-10T10:20:00Z"
+  },
+  {
+    "id": 23,
+    "name": "Wendy Darling",
+    "email": "wendy.d@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2024-07-28T08:00:00Z"
+  },
+  {
+    "id": 24,
+    "name": "Xander Harris",
+    "email": "xander.h@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-08-14T14:50:00Z"
+  },
+  {
+    "id": 25,
+    "name": "Yara Greyjoy",
+    "email": "yara.g@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-09-02T11:10:00Z"
+  },
+  {
+    "id": 26,
+    "name": "Zane Malik",
+    "email": "zane.m@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2024-09-18T16:35:00Z"
+  },
+  {
+    "id": 27,
+    "name": "Arthur Morgan",
+    "email": "arthur.m@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-10-05T09:00:00Z"
+  },
+  {
+    "id": 28,
+    "name": "Bella Swan",
+    "email": "bella.s@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-10-22T13:15:00Z"
+  },
+  {
+    "id": 29,
+    "name": "Connor Kenway",
+    "email": "connor.k@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2024-11-08T10:40:00Z"
+  },
+  {
+    "id": 30,
+    "name": "Daisy Johnson",
+    "email": "daisy.j@example.com",
+    "status": "active",
+    "role": "admin",
+    "createdAt": "2024-11-25T15:05:00Z"
+  },
+  {
+    "id": 31,
+    "name": "Edward Elric",
+    "email": "edward.e@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2024-12-12T08:25:00Z"
+  },
+  {
+    "id": 32,
+    "name": "Franklin Clinton",
+    "email": "franklin.c@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2024-12-28T12:50:00Z"
+  },
+  {
+    "id": 33,
+    "name": "Gina Linetti",
+    "email": "gina.l@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2025-01-14T14:15:00Z"
+  },
+  {
+    "id": 34,
+    "name": "Hank Schrader",
+    "email": "hank.s@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2025-02-02T11:30:00Z"
+  },
+  {
+    "id": 35,
+    "name": "Iris West",
+    "email": "iris.w@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2025-02-18T16:45:00Z"
+  },
+  {
+    "id": 36,
+    "name": "Joel Miller",
+    "email": "joel.m@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2025-03-05T09:10:00Z"
+  },
+  {
+    "id": 37,
+    "name": "Katniss Everdeen",
+    "email": "katniss.e@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2025-03-25T13:20:00Z"
+  },
+  {
+    "id": 38,
+    "name": "Luke Skywalker",
+    "email": "luke.s@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2025-04-10T10:05:00Z"
+  },
+  {
+    "id": 39,
+    "name": "Mia Wallace",
+    "email": "mia.w@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2025-05-02T15:55:00Z"
+  },
+  {
+    "id": 40,
+    "name": "Nathan Drake",
+    "email": "nathan.d@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2025-05-18T11:40:00Z"
+  },
+  {
+    "id": 41,
+    "name": "Olivia Pope",
+    "email": "olivia.p@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2025-06-14T08:15:00Z"
+  },
+  {
+    "id": 42,
+    "name": "Parker Selfridge",
+    "email": "parker.s@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2025-07-01T12:30:00Z"
+  },
+  {
+    "id": 43,
+    "name": "Quentin Coldwater",
+    "email": "quentin.c@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2025-07-20T14:45:00Z"
+  },
+  {
+    "id": 44,
+    "name": "Rosa Diaz",
+    "email": "rosa.d@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2025-08-15T10:20:00Z"
+  },
+  {
+    "id": 45,
+    "name": "Steve Rogers",
+    "email": "steve.r@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2025-09-05T09:05:00Z"
+  },
+  {
+    "id": 46,
+    "name": "Tris Prior",
+    "email": "tris.p@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2025-09-25T13:50:00Z"
+  },
+  {
+    "id": 47,
+    "name": "Ulysses Klaue",
+    "email": "ulysses.k@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2025-10-10T11:15:00Z"
+  },
+  {
+    "id": 48,
+    "name": "Velma Dinkley",
+    "email": "velma.d@example.com",
+    "status": "active",
+    "role": "user",
+    "createdAt": "2025-11-12T16:00:00Z"
+  },
+  {
+    "id": 49,
+    "name": "Wanda Maximoff",
+    "email": "wanda.m@example.com",
+    "status": "active",
+    "role": "admin",
+    "createdAt": "2025-12-05T10:35:00Z"
+  },
+  {
+    "id": 50,
+    "name": "Xena Warrior",
+    "email": "xena.w@example.com",
+    "status": "inactive",
+    "role": "user",
+    "createdAt": "2025-12-28T08:50:00Z"
+  }
+]
