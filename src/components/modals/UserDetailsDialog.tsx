@@ -5,6 +5,7 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import type { User } from '@/types/user';
+import { Mail, Shield, Calendar, UserCircle } from 'lucide-react';
 
 interface UserDetailsDialogProps {
   user: User | null;
@@ -21,30 +22,54 @@ export const UserDetailsDialog = ({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-[425px]">
+      <DialogContent className="sm:max-w-[500px]">
         <DialogHeader>
           <DialogTitle>User Details</DialogTitle>
         </DialogHeader>
-        <div className="grid gap-4 py-4">
-          <div className="grid grid-cols-4 items-center gap-4">
-            <span className="font-semibold">Name:</span>
-            <span className="col-span-3">{user.name}</span>
+
+        <div className="flex flex-col items-center py-2">
+          <div className="h-20 w-20 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+            <UserCircle className="h-12 w-12 text-primary" />
           </div>
-          <div className="grid grid-cols-4 items-center gap-4">
-            <span className="font-semibold">Email:</span>
-            <span className="col-span-3">{user.email}</span>
+          <h3 className="text-xl font-semibold">{user.name}</h3>
+          <p className="text-sm text-muted-foreground">{user.email}</p>
+        </div>
+
+        <div className="space-y-2">
+          <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/50">
+            <Mail className="h-5 w-5 text-muted-foreground" />
+            <div>
+              <p className="text-sm font-medium">Email</p>
+              <p className="text-sm text-muted-foreground">{user.email}</p>
+            </div>
           </div>
-          <div className="grid grid-cols-4 items-center gap-4">
-            <span className="font-semibold">Status:</span>
-            <span className="col-span-3 capitalize">{user.status}</span>
+
+          <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/50">
+            <Shield className="h-5 w-5 text-muted-foreground" />
+            <div>
+              <p className="text-sm font-medium">Role</p>
+              <p className="text-sm text-muted-foreground capitalize">
+                {user.role}
+              </p>
+            </div>
           </div>
-          <div className="grid grid-cols-4 items-center gap-4">
-            <span className="font-semibold">Role:</span>
-            <span className="col-span-3 capitalize">{user.role}</span>
+
+          <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/50">
+            <UserCircle className="h-5 w-5 text-muted-foreground" />
+            <div>
+              <p className="text-sm font-medium">Status</p>
+              <p className="text-sm text-muted-foreground capitalize">
+                {user.status}
+              </p>
+            </div>
           </div>
-          <div className="grid grid-cols-4 items-center gap-4">
-            <span className="font-semibold">Created:</span>
-            <span className="col-span-3">{user.createdAt}</span>
+
+          <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/50">
+            <Calendar className="h-5 w-5 text-muted-foreground" />
+            <div>
+              <p className="text-sm font-medium">Created At</p>
+              <p className="text-sm text-muted-foreground">{user.createdAt}</p>
+            </div>
           </div>
         </div>
       </DialogContent>
