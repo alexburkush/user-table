@@ -18,6 +18,7 @@ export const DataTable = ({ data }: DataTableProps) => {
   const [statusFilter, setStatusFilter] = useState<
     'all' | 'active' | 'inactive'
   >('all');
+  const [roleFilter, setRoleFilter] = useState<'all' | 'user' | 'admin'>('all');
   const [sortColumn, setSortColumn] = useState<'name' | 'createdAt' | null>(
     null
   );
@@ -33,9 +34,11 @@ export const DataTable = ({ data }: DataTableProps) => {
       const matchesStatus =
         statusFilter === 'all' || user.status === statusFilter;
 
-      return matchesSearch && matchesStatus;
+      const matchesRole = roleFilter === 'all' || user.role === roleFilter;
+
+      return matchesSearch && matchesStatus && matchesRole;
     });
-  }, [data, searchQuery, statusFilter]);
+  }, [data, searchQuery, statusFilter, roleFilter]);
 
   const sortedData = useMemo(() => {
     if (!sortColumn) return filteredData;
@@ -85,13 +88,20 @@ export const DataTable = ({ data }: DataTableProps) => {
     setCurrentPage(1);
   };
 
+  const handleRoleChange = (value: 'all' | 'user' | 'admin') => {
+    setRoleFilter(value);
+    setCurrentPage(1);
+  };
+
   return (
     <div className="w-full">
       <DataTableFilters
         searchQuery={searchQuery}
         statusFilter={statusFilter}
+        roleFilter={roleFilter}
         onSearchChange={handleSearchChange}
         onStatusChange={handleStatusChange}
+        onRoleChange={handleRoleChange}
       />
 
       <div className="rounded-md border">
