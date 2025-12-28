@@ -25,32 +25,32 @@ export const DataTableHead = ({
   };
 
   return (
-    <TableHeader>
-      <TableRow>
+    <TableHeader className="bg-gray-100">
+      <TableRow className="hover:bg-gray-100">
         <TableHead>
           <Button
             variant="ghost"
             onClick={() => onSort('name')}
-            className="h-auto p-0 hover:bg-transparent"
+            className="h-auto p-0 hover:bg-transparent font-semibold"
           >
             Name
             {renderSortIcon('name')}
           </Button>
         </TableHead>
-        <TableHead>Email</TableHead>
-        <TableHead>Status</TableHead>
-        <TableHead>Role</TableHead>
+        <TableHead className="font-semibold">Email</TableHead>
+        <TableHead className="font-semibold">Status</TableHead>
+        <TableHead className="font-semibold">Role</TableHead>
         <TableHead>
           <Button
             variant="ghost"
             onClick={() => onSort('createdAt')}
-            className="h-auto p-0 hover:bg-transparent"
+            className="h-auto p-0 hover:bg-transparent font-semibold"
           >
             Created Date
             {renderSortIcon('createdAt')}
           </Button>
         </TableHead>
-        <TableHead>Actions</TableHead>
+        <TableHead className="font-semibold">Actions</TableHead>
       </TableRow>
     </TableHeader>
   );

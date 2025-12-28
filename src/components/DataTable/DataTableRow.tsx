@@ -29,7 +29,7 @@ export const DataTableRow = ({ user }: DataTableRowProps) => {
         <TableCell>{user.email}</TableCell>
         <TableCell>
           <span
-            className={`inline-flex items-center rounded-full px-2 py-1 text-xs font-medium ${
+            className={`inline-flex items-center rounded-full px-2 py-1 text-xs font-medium capitalize ${
               user.status === 'active'
                 ? 'bg-green-50 text-green-700'
                 : 'bg-gray-50 text-gray-700'
@@ -38,7 +38,7 @@ export const DataTableRow = ({ user }: DataTableRowProps) => {
             {user.status}
           </span>
         </TableCell>
-        <TableCell>{user.role}</TableCell>
+        <TableCell className="capitalize">{user.role}</TableCell>
         <TableCell>{user.createdAt}</TableCell>
         <TableCell>
           <DropdownMenu>

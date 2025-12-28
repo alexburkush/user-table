@@ -6,6 +6,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
+import { Search } from 'lucide-react';
 
 interface DataTableFiltersProps {
   searchQuery: string;
@@ -26,12 +27,15 @@ export const DataTableFilters = ({
 }: DataTableFiltersProps) => {
   return (
     <div className="flex flex-col sm:flex-row items-center gap-x-4 gap-y-2 pb-4">
-      <Input
-        placeholder="Search by name or email..."
-        value={searchQuery}
-        onChange={(e) => onSearchChange(e.target.value)}
-        className="w-full sm:max-w-sm"
-      />
+      <div className="relative flex-1 w-full sm:max-w-sm">
+        <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+        <Input
+          placeholder="Search by name or email..."
+          value={searchQuery}
+          onChange={(e) => onSearchChange(e.target.value)}
+          className="pl-9"
+        />
+      </div>
       <div className="flex w-full sm:w-auto items-center gap-x-4 gap-y-2 flex-wrap sm:flex-nowrap">
         <Select value={statusFilter} onValueChange={onStatusChange}>
           <SelectTrigger className="w-full sm:w-[180px]">

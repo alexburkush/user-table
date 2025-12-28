@@ -10,7 +10,7 @@ const App = () => {
     <div className="max-w-[1400px] mx-auto min-h-screen px-4 py-8 flex flex-col">
       <header className="mb-8">
         <div className="flex items-center gap-2">
-          <UsersIcon className="h-6 w-6" />
+          <UsersIcon className="h-5 w-5" />
           <h1 className="text-2xl font-medium">User Table</h1>
         </div>
       </header>
