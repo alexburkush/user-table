@@ -1,6 +1,7 @@
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
@@ -25,6 +26,9 @@ export const UserDetailsDialog = ({
       <DialogContent className="sm:max-w-[500px]">
         <DialogHeader>
           <DialogTitle>User Details</DialogTitle>
+          <DialogDescription>
+            View detailed information about this user.
+          </DialogDescription>
         </DialogHeader>
 
         <div className="flex flex-col items-center py-2">
